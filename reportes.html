@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Reportes Especiales</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">FARMAUNAD</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="admin.html">Administrador</a></li>
+        <li><a href="ingreso_de_productos.html">Ingreso de Productos</a></li>
+        <li><a href="operaciones_matematicas.html">Operaciones Matematicas</a></li>
+        <li><a href="reportes.html">Reportes Especiales</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <h1 align="center">Reportes especiales</h1>
+  <hr>
+
+  <div align="center">
+    <div class="w3-card-4" style="width:350px">
+
+      <form class="form-inline" action="ingreso_pro.php" method="post" style="padding: 20px; text-align: left; width:100%">
+
+        <label for="peso">Peso:
+            <input type="text" class="form-control" name="peso" placeholder="Ingrese Peso en Kg" style="width:100%" ></label><br>
+
+        <label for="codigo" width="100%;">Código:
+            <input type="text" class="form-control" name="codigo" placeholder="Ingrese Código" style="width:100%"></label><br>
+
+        <label for="nombre" width="100%;">Nombre:
+            <input type="text" class="form-control" name="nombre" placeholder="Ingrese Nombre" style="width:100%" ></label><br>
+        <label for="marca" width="100%;">Marca:
+            <input type="text" class="form-control" name="marca" placeholder="Ingrese Marca" style="width:100%"></label><br>
+
+        <label for="fabricante">Fabricante:
+            <input type="text" class="form-control" name="fabricante" placeholder="Ingrese Fabricante" style="width:100%" ></label><br>
+
+        <div align="center">
+          <button align="center" type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+</body>
+
+</html>
